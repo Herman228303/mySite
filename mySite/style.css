@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-transform: lowercase;
+}
+
+a:hover{
+    color: gray;
+    transition: 0.4s;
+}
+
+header{
+    height: 120px;
+    display: flex;
+    background-color: #121212;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.contact_logo{
+    height: 30px;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link{
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.slider{
+    display: flex;
+    /* align-items: center; */
+    
+    flex-direction: column;
+    width: 100%;
+    background-image: url("../Assets/slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-bottom: 1px solid lightslategray;    
+}
+
+.slider-img{
+    position:absolute;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 300px;
+    width: 100%; 
+    position: relative;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.container {
+    position: relative;
+    padding-top: 30px;
+}
+
+.text {
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gray;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    background: #fff;
+    padding: 0 10px;
+} 
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.card1, .card2, .card3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    width: 240px;
+    background-color: rgb(213, 213, 213);
+    z-index: 1;
+    align-items: center;
+    padding-bottom: 10px; 
+}
+
+footer{
+    border-top: 1px #121212 solid ;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: rgb(188, 188, 188); 
+    padding-left: 300px;
+    padding-right: 300px;
+    color: gray;
+}
+
+
+
+.footer-text{
+    margin-top: 30px;
+    color: gray;
+}
+
+.image-of-project{
+    height: 130px;
+    margin-top: 10px;
+}
+
+.name-of-project{
+    color:gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.theme-of-project{
+    color: white;
+}
+
+.title{
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle{
+    margin-left: 10%;
+    font-size: large;
+}
